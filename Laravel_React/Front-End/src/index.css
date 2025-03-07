@@ -1,0 +1,50 @@
+/* Centrar contenido en toda la pantalla */
+.full-screen-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Tarjeta con sombras y bordes redondeados */
+.card-custom {
+  width: 50%;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+}
+
+/* Estilos para los botones de navegación */
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-buttons button {
+  margin: 0 10px;
+}
+
+/* Estilos para la tabla de usuarios */
+.table-container {
+  width: 80%;
+  overflow-x: auto;
+}
+
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+  .card-custom {
+      width: 90%;
+  }
+
+  .table-container {
+      width: 100%;
+  }
+}
