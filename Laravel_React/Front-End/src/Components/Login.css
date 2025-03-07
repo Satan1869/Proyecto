@@ -1,0 +1,101 @@
+/* Fondo moderno con desenfoque */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://source.unsplash.com/1600x900/?technology,abstract") no-repeat center;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+}
+
+/* Tarjeta de login */
+.login-card {
+    background: rgba(128, 0, 128, 0.15); /* Fondo morado transparente */
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(75, 0, 130, 0.3); /* Sombra morada */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+}
+
+/* Título */
+.login-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #9370DB; /* Morado más claro para el título */
+}
+
+/* Subtítulo */
+.login-subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    color: #E6E6FA; /* Lavanda claro */
+}
+
+/* Campos de entrada */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #D8BFD8; /* Morado claro para etiquetas */
+}
+
+.input-group input {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: 1px solid #8A2BE2; /* Borde morado */
+}
+
+.input-group input:focus {
+    background: rgba(138, 43, 226, 0.1); /* Morado claro al hacer focus */
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.2);
+}
+
+/* Botón de inicio de sesión */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background: #4CAF50; /* Verde */
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-button:hover {
+    background: #45a049; /* Verde más oscuro al pasar el mouse */
+    transform: translateY(-2px);
+}
+
+/* Enlace de "¿Olvidaste tu contraseña?" */
+.forgot-password {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    cursor: pointer;
+    color: #7FFF00; /* Verde chartreuse */
+}
+
+.forgot-password:hover {
+    opacity: 1;
+    text-decoration: underline;
+    color: #ADFF2F; /* Verde amarillento al pasar el mouse */
+}
